@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500&display=swap');
+
+/* ================================
+            GLOBAL STYLES
+================================== */
+body{
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    color: #323A45;
+}
+
+p{
+    color:#848484;
+}
+
+/* ================================
+            HEADER STYLES
+================================== */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 7% 0 10%;
+}
+header ul{
+    list-style-type: none;
+    display: flex;
+}
+header ul li{
+    margin-left: 50px;
+}
+header ul li a{
+    text-decoration: none;
+    color: #323A45;
+    font-size: 20px;
+}
+
+/* ================================
+        SECTION STYLES //global
+================================== */
+.productImg{
+    width: 100%;
+}
+
+.bigImg{
+    width: 100%;
+}
+
+.item-container{
+    display:grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 95vh 15vh 100vh;
+    margin: 5% 10% 5% 10%;
+    grid-column-gap: 3%;
+}
+
+.big-img-container{
+    grid-column: 1 / 4;
+    grid-row: 1 /2;
+}
+
+.description{
+    display: flex;
+    justify-content: space-between;
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+}
+
+.product1{
+    grid-column: 1 / 2;
+    grid-row: 3 /4;
+}
+
+.product2{
+    grid-column: 2 / 3;
+    grid-row: 3 /4;
+}
+
+.product3{
+    grid-column: 3 / 4;
+    grid-row: 3 /4;
+}
+
+.product4{
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+
+.product5{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+
+.product6{
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+}
+
+.product-description{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product1-description h2{
+    font-size: 20px;
+}
+
+/* ================================
+            Last STYLES
+================================== */
+
+.last-container{
+    display:grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 95vh 15vh 100vh;
+    margin: 5% 10% 5% 10%;
+    grid-column-gap: 3%;
+}
+
+/* ================================
+            Footer STYLES
+================================== */
+
+footer section{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+footer ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ol li a{
+    text-decoration: none;
+    color: #000;
+}
+
+footer p{
+    color: #000;
+}
